@@ -1,11 +1,24 @@
 {
-  "name": "root",
-  "private": true,
+  "name": "workspace",
+	"version": "1.0.0",
+	"description": "> TODO: description",
+	"author": "Andres Arenas <andres.arenas.vargas@gmail.com>",
+	"homepage": "https://github.com/andresarenasv/workspace#readme",
+	"license": "MIT",
+	"private": false,
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/andresarenasv/workspace.git"
+	},
   "workspaces": [
     "packages/*"
   ],
+	"scripts": {
+		"clean": "lerna run clean",
+		"bump-version": "lerna version --yes"
+	},
   "dependencies": {},
   "devDependencies": {
-    "lerna": "^7.4.2"
+    "lerna": "7.4.2"
   }
 }
