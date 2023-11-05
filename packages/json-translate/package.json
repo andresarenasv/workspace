@@ -21,7 +21,7 @@
 		"url": "https://github.com/andresarenasv/workspace/issues"
 	},
 	"publishConfig": {
-		"registry": "https://npm.pkg.github.com/@andresarenasv"
+		"registry": "https://npm.pkg.github.com/"
 	},
 	"scripts": {
 		"test": "node ./__tests__/json-translate.test.js"
