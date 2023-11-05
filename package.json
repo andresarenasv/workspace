@@ -14,9 +14,14 @@
 		"packages/*"
 	],
 	"scripts": {
-		"clean": "lerna run clean",
+		"build": "lerna run clean & lerna run build",
+		"build-packages": "npx nx run-many --target=build",
 		"bump-version": "lerna version --yes",
-		"prepare": "husky install"
+		"clean": "lerna run clean",
+		"diff": "lerna diff",
+		"prepare": "husky install",
+		"publish": "lerna publish from-git --yes --contents dist",
+		"test": "lerna run test --since=origin/main"
 	},
 	"devDependencies": {
 		"husky": "8.0.3",
