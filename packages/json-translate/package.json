@@ -1,10 +1,11 @@
 {
 	"name": "json-translate",
-	"version": "1.0.1",
+	"version": "1.0.0",
 	"description": "> TODO: description",
 	"author": "Andres Arenas <andres.arenas.vargas@gmail.com>",
 	"homepage": "https://github.com/andresarenasv/workspace#readme",
 	"license": "MIT",
+	"private": false,
 	"main": "index.js",
 	"directories": {
 		"lib": "lib",
